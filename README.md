@@ -6,6 +6,8 @@
 
 A map of Oldham info from Foursquare
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/af5dbcc3-26ac-4b2b-8c8f-a9fefb919b5d/deploy-status)](https://app.netlify.com/sites/neighborhoodmapreact/deploys)
+
 _Udacitys last project for the FEND Nano Degree Program_ _**[NanoDegrees](udacity.com/nanodegrees)**_
 
 ---
