@@ -1,68 +1,116 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# **Neighborhood-Map**
 
-## Available Scripts
+![Profile Pick](http://res.cloudinary.com/pieol2/image/upload/v1516543296/profile-small.png)
 
-In the project directory, you can run:
+## by _**PAUL STANDLEY**_
 
-### `npm start`
+A map of Oldham info from Foursquare
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+_Udacitys last project for the FEND Nano Degree Program_ _**[NanoDegrees](udacity.com/nanodegrees)**_
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+### UDACITY PROJECT-8
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Project __[Rubrick](https://review.udacity.com/#!/rubrics/1351/view)__
 
-### `npm run build`
+## Quick Start
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```BASH
+cd neighborhood-map
+npm start
+```
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+```BASH
+cd neighborhood-map
+yarn start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### For servise worker create a propduction build
 
-### `npm run eject`
+You can run a production by using the following commands ``` :) ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```BASH
+npm serve -s build
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+And then
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```BASH
+npm run serve
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Check localhost: 5000
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## **Udacity Project 8 Rubrics**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**_Link_** [Rubrics](https://review.udacity.com/#!/rubrics/1351/view)
+PROJECT SPECIFICATION **Neighborhood Map (React)**
 
-### Code Splitting
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## **Dependencies**
 
-### Analyzing the Bundle Size
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+### Prop Types
 
-### Making a Progressive Web App
+```BASH
+npm install --save prop-types
+yarn add prop-types
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+### Escape-string-regexp and Sort-by
 
-### Advanced Configuration
+```BASH
+npm install --save escape-string-regexp sort-by
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+### Google-maps-react
 
-### Deployment
+```BASH
+npm install --save google-maps-react
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+### Sw-precache
 
-### `npm run build` fails to minify
+```BASH
+ npm install --save-dev sw-precache
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+---
+
+_**[Goggle Fonts](https://fonts.google.com/?selection.family=Indie+Flower|Notable)**_
+
+**HTML**
+
+```HTML
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Notable" rel="stylesheet">
+```
+
+**CSS**
+
+```CSS
+font-family: 'Indie Flower', cursive;
+font-family: 'Notable', sans-serif;
+```
+
+---
+
+## **API**
+
+#### Foursquare API: [foursquare](https://foursquare.com)
+
+---
+
+## **Citation**
+
+* Favicon at favicon.cc by **_[gcoke1](https://www.favicon.cc/?action=icon&file_id=873941)_**
+
+* Goggle Fonts: _Notable_ By __Eli Block__ Principal design and _Indie Flower_ By __Kimberly Geswein__ Principal design
+
+* Image Hosting By: **_[Cloudinary](https://cloudinary.com/)_**
+
+---
