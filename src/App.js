@@ -24,7 +24,7 @@ class App extends React.Component {
       listActiveTargetName: {},
       listTargetIndex: null,
       listActive: false,
-    };
+    };// bind functions to app class
     this.updateQueryHandeler = this.updateQueryHandeler.bind(this);
     this.clicked = this.clicked.bind(this);
     this.closeList = this.closeList.bind(this);
